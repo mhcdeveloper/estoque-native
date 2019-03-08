@@ -1,0 +1,42 @@
+{
+  "name": "MelkEstoque",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "immer": "^1.10.5",
+    "moment": "^2.23.0",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-action-button": "^2.8.5",
+    "react-native-camera": "^1.8.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-native-image-progress": "^1.1.1",
+    "react-native-image-resizer": "^1.0.0",
+    "react-native-lightbox": "^0.8.0",
+    "react-native-looped-carousel": "^0.1.13",
+    "react-native-progress": "^3.5.0",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^3.0.8",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "redux-saga-rn-alert": "^1.1.5",
+    "reduxsauce": "^1.0.1",
+    "seamless-immutable": "^7.1.4"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.5",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
